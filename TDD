@@ -1,0 +1,8 @@
+
+The benefit of TDD is to refactor deeply without breaking anything, with feedbacks in milliseconds at each keystroke, triggering the "pleasure molecule".
+
+Don't unit tests your domain models, they are implementation details.
+A lot of books are wrong IMO, recommending testing them in isolation.
+
+Test your behaviours, aka your use cases (application services in DDD jargon).
+Domain models will still be 100% covered because traversed, don't worry.
